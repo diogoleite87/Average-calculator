@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora ENEM</title>
+    <link rel="icon" type="image/jpg" href="img/Icon_Enem.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>Média ENEM</h1>
+        <p>Calcule a média da sua nota no ENEM, diante dos respectivos pesos de forma pratica e fácil</p>
+    </div>
+    <div class="calculadora">
+        <table>
+            <tr>
+                <input type="number" id="valor1" placeholder="Linguagens, Códigos e suas Tecnologias">
+                <input type="number" id="valor2" placeholder="Ciências Humanas e suas Tecnologias">
+                <input type="number" id="valor3" placeholder="Ciências da Natureza e suas Tecnologias">
+                <input type="number" id="valor4" placeholder="Matemática e suas Tecnologias">
+                <input type="number" id="valor5" placeholder="Redação">
+            </tr>
+            <br>
+            <tr>
+                <input type="number" id="peso1" placeholder="Peso da Nota">
+                <input type="number" id="peso2" placeholder="Peso da Nota">
+                <input type="number" id="peso3" placeholder="Peso da Nota">
+                <input type="number" id="peso4" placeholder="Peso da Nota">
+                <input type="number" id="peso5" placeholder="Peso da Nota">
+            </tr>
+        </table>
+        <button type="submit" onclick="resultado()">Calcular</button>
+        <p id="resultadoTela"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
